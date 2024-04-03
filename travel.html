@@ -18,12 +18,12 @@
                 <li><a class = "button3" href = "recipes.html">Recipes</a></li>
                 <li><a class = "button4" href = "travel.html">Travel</a></li>
             </ul>
-            <button onclick= "darkMode()">Switch mode</button>
+            <h1>Travel</h1>
+            <button id = "dark-mode-button">Switch mode</button>
         </nav>
 
     </header>
     <main id="main">
-        <h1>Travel</h1>
         <div class = "travel_container">
             <h2>Monteverde, Costa Rica</h2>
             <img class = "first-pic" src="images/Monteverde_cloud_forest.jpeg" alt="Clouds rolling through a line of trees">
@@ -62,11 +62,6 @@
             </div>
         </div>
     </main>
-    <script>
-        function darkMode() {
-            let element = document.body;
-            element.classList.toggle("dark");
-        }
-    </script>
+    <script src="js/darkMode.js"></script>
 </body>
 </html>
